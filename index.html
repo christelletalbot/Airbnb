@@ -10,29 +10,40 @@
 <body>
 <!-- HEADER #### RUUD -->
 	<header>
-		<nav>
-			<ul>
-				<li>Devenir hôte</li>
-				<li>Aide</li>
-				<li>Inscription</li>
-				<li>Connexion</li>
+
+		<nav class="left">
+			<ul class="grid">
+				<li>
+					<a href="#">
+						[LOGO]
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<nav class="right">
+			<ul class="grid-4-reverse">
+				<li><a href="#">Devenir hôte</a></li>
+				<li><a href="#">Aide</a></li>
+				<li><a href="#">Inscription</a></li>
+				<li><a href="#">Connexion</a></li>
 			</ul>
 		</nav>
 	
-		<h1>Airbnb</h1>
-		<h2>Réservez des logements uniques et vivez là-bas comme des locaux.</h2>
+		<h1>Airbnb<br />
+		    Réservez des logements uniques et vivez là-bas comme des locaux.</h1>
 
 		<form>
-			<input type=type="text" name="recherche" >Essayez « Londres »
-			<input type="submit" name="submit">Rechercher</form>
+			<input type=type="text" name="recherche" >Essayez « Rodez »
+			<input type="submit" name="submit"> [LOUPE]
+					</form>
 
 		<h3>Explorer Airbnb</h3>
 
 		<nav>
 			<ul>
-				<li>Logements</li>
-				<li>Expériences</li>
-				<li>Restaurants</li>
+				<li><a href="#">Logements  </a></li>
+				<li><a href="#">Expériences</a></li>
+				<li><a href="#">Restaurants</a></li>
 			</ul>
 		</nav>
 
@@ -44,7 +55,7 @@
 	<section class="experience">
 		<h2>Experience</h2>
 		<p><a href="#">Plus ></a></p>
-		<ul>
+		<ul class="grid has-gutter">
 			<li>
 				<article>
 					<a href="#">
@@ -55,6 +66,8 @@
 						<div class="etoiles_avis"></div>
 					</a>
 				</article>
+			</li>
+			<li>
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -64,6 +77,8 @@
 						<div class="etoiles_avis">72</div>
 					</a>
 				</article>
+			</li>
+			<li>
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -73,6 +88,8 @@
 						<div class="etoiles_avis">16</div>
 					</a>
 				</article>
+			</li>
+			<li>
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -80,24 +97,6 @@
 						<h3>Learn to surf with the 5th times Asian Champion</h3>
 						<p>7€ par personne</p>
 						<div class="etoiles_avis">1</div>
-					</a>
-				</article>
-				<article>
-					<a href="#">
-						<img src="http://via.placeholder.com/255x180" />
-						<h4>ESCAPADE À VÉLO · LA HAVANE</h4>
-						<h3>Learn about Havana as you bike to sights and an urban forest</h3>
-						<p>13€ par personne</p>
-						<div class="etoiles_avis">11</div>
-					</a>
-				</article>
-				<article>
-					<a href="#">
-						<img src="http://via.placeholder.com/255x180" />
-						<h4>COURS DE PHOTO · LOS ANGELES</h4>
-						<h3>Take pictures at some of LA's best spots in one day!</h3>
-						<p>34€ par personne</p>
-						<div class="etoiles_avis">152</div>
 					</a>
 				</article>
 			</li>
@@ -110,7 +109,8 @@
 	</section>
 <!--Module Table x1 Florian-->
 	<section>
-		<ul>
+		<h2>Table très prisées</h2>
+		<ul class="grid has-gutter">
 			<li>
 				<a href="#">
 					<img src="https://loremflickr.com/320/240" alt="placer holder">
@@ -156,13 +156,14 @@
 	</section>
 <!--Module Destination x1 Florian-->
 	<section>
+		<h2>Destination à la une</h2>
 		<ul>
 			<li>
 				<a href="#">
 					<img src="https://loremflickr.com/320/240" alt="placer holder">
 					<h4>Bar Speakeasy</h4>
 					<h3>Chumley's</h3>
-					<p>Environ 51€ par personne</p>
+					<p class="bigger">Environ 51€ par personne</p>
 				</a>		
 			</li>
 			<li>
@@ -208,6 +209,549 @@
 			
 		</ul>
 	</section>
+
+
+
+<!-- MODULES XP x10 #### RUUD -->
+<!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
+
+	<section class="experience">
+		<h2>Experience : New York</h2>
+		<p><a href="#">Plus ></a></p>
+		<ul class="grid has-gutter">
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
+						<h3>A '90s themed holiday dance party for charity</h3>
+						<p>26€ par personne</p>
+						<div class="etoiles_avis"></div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>VIE NOCTURNE · PARIS</h4>
+						<h3>Above and beyond Paris' Live Music scenes.</h3>
+						<p>35€ par personne</p>
+						<div class="etoiles_avis">72</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
+						<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
+						<p>22€ par personne</p>
+						<div class="etoiles_avis">16</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>SPORTS · BALI</h4>
+						<h3>Learn to surf with the 5th times Asian Champion</h3>
+						<p>7€ par personne</p>
+						<div class="etoiles_avis">1</div>
+					</a>
+				</article>
+			</li>
+		</ul>
+	</section>
+	
+<!-- MODULES XP x10 #### RUUD -->
+<!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
+
+	<section class="experience">
+		<h2>Experience : Barcelone</h2>
+		<p><a href="#">Plus ></a></p>
+		<ul class="grid has-gutter">
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
+						<h3>A '90s themed holiday dance party for charity</h3>
+						<p>26€ par personne</p>
+						<div class="etoiles_avis"></div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>VIE NOCTURNE · PARIS</h4>
+						<h3>Above and beyond Paris' Live Music scenes.</h3>
+						<p>35€ par personne</p>
+						<div class="etoiles_avis">72</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
+						<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
+						<p>22€ par personne</p>
+						<div class="etoiles_avis">16</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>SPORTS · BALI</h4>
+						<h3>Learn to surf with the 5th times Asian Champion</h3>
+						<p>7€ par personne</p>
+						<div class="etoiles_avis">1</div>
+					</a>
+				</article>
+			</li>
+		</ul>
+	</section>
+	
+<!-- MODULES XP x10 #### RUUD -->
+<!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
+
+	<section class="experience">
+		<h2>Experience: Paris</h2>
+		<p><a href="#">Plus ></a></p>
+		<ul class="grid has-gutter">
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
+						<h3>A '90s themed holiday dance party for charity</h3>
+						<p>26€ par personne</p>
+						<div class="etoiles_avis"></div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>VIE NOCTURNE · PARIS</h4>
+						<h3>Above and beyond Paris' Live Music scenes.</h3>
+						<p>35€ par personne</p>
+						<div class="etoiles_avis">72</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
+						<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
+						<p>22€ par personne</p>
+						<div class="etoiles_avis">16</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>SPORTS · BALI</h4>
+						<h3>Learn to surf with the 5th times Asian Champion</h3>
+						<p>7€ par personne</p>
+						<div class="etoiles_avis">1</div>
+					</a>
+				</article>
+			</li>
+		</ul>
+	</section>
+	
+<!-- MODULES XP x10 #### RUUD -->
+<!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
+
+	<section class="experience">
+		<h2>Experience : Tokio</h2>
+		<p><a href="#">Plus ></a></p>
+		<ul class="grid has-gutter">
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
+						<h3>A '90s themed holiday dance party for charity</h3>
+						<p>26€ par personne</p>
+						<div class="etoiles_avis"></div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>VIE NOCTURNE · PARIS</h4>
+						<h3>Above and beyond Paris' Live Music scenes.</h3>
+						<p>35€ par personne</p>
+						<div class="etoiles_avis">72</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
+						<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
+						<p>22€ par personne</p>
+						<div class="etoiles_avis">16</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>SPORTS · BALI</h4>
+						<h3>Learn to surf with the 5th times Asian Champion</h3>
+						<p>7€ par personne</p>
+						<div class="etoiles_avis">1</div>
+					</a>
+				</article>
+			</li>
+		</ul>
+	</section>
+	
+<!-- MODULES XP x10 #### RUUD -->
+<!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
+
+	<section class="experience">
+		<h2>Experience : Los Angeles</h2>
+		<p><a href="#">Plus ></a></p>
+		<ul class="grid has-gutter">
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
+						<h3>A '90s themed holiday dance party for charity</h3>
+						<p>26€ par personne</p>
+						<div class="etoiles_avis"></div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>VIE NOCTURNE · PARIS</h4>
+						<h3>Above and beyond Paris' Live Music scenes.</h3>
+						<p>35€ par personne</p>
+						<div class="etoiles_avis">72</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
+						<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
+						<p>22€ par personne</p>
+						<div class="etoiles_avis">16</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>SPORTS · BALI</h4>
+						<h3>Learn to surf with the 5th times Asian Champion</h3>
+						<p>7€ par personne</p>
+						<div class="etoiles_avis">1</div>
+					</a>
+				</article>
+			</li>
+		</ul>
+	</section>
+	
+<!-- MODULES XP x10 #### RUUD -->
+<!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
+
+	<section class="experience">
+		<h2>Experience : Lisbonne</h2>
+		<p><a href="#">Plus ></a></p>
+		<ul class="grid has-gutter">
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
+						<h3>A '90s themed holiday dance party for charity</h3>
+						<p>26€ par personne</p>
+						<div class="etoiles_avis"></div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>VIE NOCTURNE · PARIS</h4>
+						<h3>Above and beyond Paris' Live Music scenes.</h3>
+						<p>35€ par personne</p>
+						<div class="etoiles_avis">72</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
+						<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
+						<p>22€ par personne</p>
+						<div class="etoiles_avis">16</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>SPORTS · BALI</h4>
+						<h3>Learn to surf with the 5th times Asian Champion</h3>
+						<p>7€ par personne</p>
+						<div class="etoiles_avis">1</div>
+					</a>
+				</article>
+			</li>
+		</ul>
+	</section>
+	
+<!-- MODULES XP x10 #### RUUD -->
+<!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
+
+	<section class="experience">
+		<h2>Experience : San Fransisco</h2>
+		<p><a href="#">Plus ></a></p>
+		<ul class="grid has-gutter">
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
+						<h3>A '90s themed holiday dance party for charity</h3>
+						<p>26€ par personne</p>
+						<div class="etoiles_avis"></div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>VIE NOCTURNE · PARIS</h4>
+						<h3>Above and beyond Paris' Live Music scenes.</h3>
+						<p>35€ par personne</p>
+						<div class="etoiles_avis">72</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
+						<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
+						<p>22€ par personne</p>
+						<div class="etoiles_avis">16</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>SPORTS · BALI</h4>
+						<h3>Learn to surf with the 5th times Asian Champion</h3>
+						<p>7€ par personne</p>
+						<div class="etoiles_avis">1</div>
+					</a>
+				</article>
+			</li>
+		</ul>
+	</section>
+	
+<!-- MODULES XP x10 #### RUUD -->
+<!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
+
+	<section class="experience">
+		<h2>Experience : Sydney</h2>
+		<p><a href="#">Plus ></a></p>
+		<ul class="grid has-gutter">
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
+						<h3>A '90s themed holiday dance party for charity</h3>
+						<p>26€ par personne</p>
+						<div class="etoiles_avis"></div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>VIE NOCTURNE · PARIS</h4>
+						<h3>Above and beyond Paris' Live Music scenes.</h3>
+						<p>35€ par personne</p>
+						<div class="etoiles_avis">72</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
+						<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
+						<p>22€ par personne</p>
+						<div class="etoiles_avis">16</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>SPORTS · BALI</h4>
+						<h3>Learn to surf with the 5th times Asian Champion</h3>
+						<p>7€ par personne</p>
+						<div class="etoiles_avis">1</div>
+					</a>
+				</article>
+			</li>
+		</ul>
+	</section>
+	
+<!-- MODULES XP x10 #### RUUD -->
+<!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
+
+	<section class="experience">
+		<h2>Experience : Londres</h2>
+		<p><a href="#">Plus ></a></p>
+		<ul class="grid has-gutter">
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
+						<h3>A '90s themed holiday dance party for charity</h3>
+						<p>26€ par personne</p>
+						<div class="etoiles_avis"></div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>VIE NOCTURNE · PARIS</h4>
+						<h3>Above and beyond Paris' Live Music scenes.</h3>
+						<p>35€ par personne</p>
+						<div class="etoiles_avis">72</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
+						<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
+						<p>22€ par personne</p>
+						<div class="etoiles_avis">16</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>SPORTS · BALI</h4>
+						<h3>Learn to surf with the 5th times Asian Champion</h3>
+						<p>7€ par personne</p>
+						<div class="etoiles_avis">1</div>
+					</a>
+				</article>
+			</li>
+		</ul>
+	</section>
+	
+<!-- MODULES XP x10 #### RUUD -->
+<!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
+
+	<section class="experience">
+		<h2>Experience : Rome</h2>
+		<p><a href="#">Plus ></a></p>
+		<ul class="grid has-gutter">
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
+						<h3>A '90s themed holiday dance party for charity</h3>
+						<p>26€ par personne</p>
+						<div class="etoiles_avis"></div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>VIE NOCTURNE · PARIS</h4>
+						<h3>Above and beyond Paris' Live Music scenes.</h3>
+						<p>35€ par personne</p>
+						<div class="etoiles_avis">72</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
+						<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
+						<p>22€ par personne</p>
+						<div class="etoiles_avis">16</div>
+					</a>
+				</article>
+			</li>
+			<li>
+				<article>
+					<a href="#">
+						<img src="http://via.placeholder.com/255x180" />
+						<h4>SPORTS · BALI</h4>
+						<h3>Learn to surf with the 5th times Asian Champion</h3>
+						<p>7€ par personne</p>
+						<div class="etoiles_avis">1</div>
+					</a>
+				</article>
+			</li>
+		</ul>
+	</section>
+	
 <!--Footer Chris-->				
 	<footer>
 		<select class="language">
