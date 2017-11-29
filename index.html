@@ -32,24 +32,24 @@
 <body>
 <!-- HEADER #### RUUD -->
 	<header>
-
-		<nav>
-			<ul>
-				<li>
-					<a href="#" class="">
-						[LOGO]
-					</a>
-				</li>
-			</ul>
-		</nav>
-		<nav>
+<!--    <nav class="navbar navbar-inverse  navbar-fixed-top">   -->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">[LOGO]</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <div class="navbar-right">
 			<ul>
 				<li><a href="#">Devenir hôte</a></li>
 				<li><a href="#">Aide</a></li>
 				<li><a href="#">Inscription</a></li>
 				<li><a href="#">Connexion</a></li>
 			</ul>
-		</nav>
+	        </div>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
@@ -66,14 +66,33 @@
 
 
 		<h3>Explorer Airbnb</h3>
-
-		<nav>
-			<ul>
-				<li><a href="#">Logements  </a></li>
-				<li><a href="#">Expériences</a></li>
-				<li><a href="#">Restaurants</a></li>
-			</ul>
-		</nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+				 <div class="thumbnail clearfix">
+				  <img src="http://placehold.it/50x50" class="pull-left">
+				   <div class="caption" class="pull-right">
+				    <a href="#">Logements  </a>
+				   </div>
+				  </div>
+		</div>
+        <div class="col-md-2">
+				 <div class="thumbnail clearfix">
+				  <img src="http://placehold.it/50x50" class="pull-left">
+				   <div class="caption" class="pull-right">
+				    <a href="#">Expériences</a>
+				   </div>
+				  </div>
+        </div>
+        <div class="col-md-2">
+				 <div class="thumbnail clearfix">
+				  <img src="http://placehold.it/50x50" class="pull-left">
+				   <div class="caption" class="pull-right">
+				    <a href="#">Restaurants</a>
+				   </div>
+				  </div>
+        </div>
+    </div>
 
 	</header>
 
@@ -83,11 +102,8 @@
 	<section class="experience">
 		<h2>Experience</h2>
 		<p><a href="#">Plus ></a></p>
-<!--       <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
--->
 
     <div class="container">
-      <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-3">
 				<article>
@@ -251,8 +267,10 @@
 	<section class="experience">
 		<h2>Experience : New York</h2>
 		<p><a href="#">Plus ></a></p>
-		<ul>
-			<li>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -262,8 +280,8 @@
 						<div class="etoiles_avis"></div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -273,8 +291,8 @@
 						<div class="etoiles_avis">72</div>
 					</a>
 				</article>
-			</li>
-			<li>
+       </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -284,8 +302,8 @@
 						<div class="etoiles_avis">16</div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -295,9 +313,9 @@
 						<div class="etoiles_avis">1</div>
 					</a>
 				</article>
-			</li>
-		</ul>
-	</section>
+        </div>
+      </div>
+</section>
 	
 <!-- MODULES XP x10 #### RUUD -->
 <!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
@@ -305,8 +323,10 @@
 	<section class="experience">
 		<h2>Experience : Barcelone</h2>
 		<p><a href="#">Plus ></a></p>
-		<ul>
-			<li>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -316,8 +336,8 @@
 						<div class="etoiles_avis"></div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -327,8 +347,8 @@
 						<div class="etoiles_avis">72</div>
 					</a>
 				</article>
-			</li>
-			<li>
+       </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -338,8 +358,8 @@
 						<div class="etoiles_avis">16</div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -349,9 +369,9 @@
 						<div class="etoiles_avis">1</div>
 					</a>
 				</article>
-			</li>
-		</ul>
-	</section>
+        </div>
+      </div>
+</section>
 	
 <!-- MODULES XP x10 #### RUUD -->
 <!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
@@ -359,8 +379,10 @@
 	<section class="experience">
 		<h2>Experience: Paris</h2>
 		<p><a href="#">Plus ></a></p>
-		<ul>
-			<li>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -370,8 +392,8 @@
 						<div class="etoiles_avis"></div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -381,8 +403,8 @@
 						<div class="etoiles_avis">72</div>
 					</a>
 				</article>
-			</li>
-			<li>
+       </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -392,8 +414,8 @@
 						<div class="etoiles_avis">16</div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -403,9 +425,9 @@
 						<div class="etoiles_avis">1</div>
 					</a>
 				</article>
-			</li>
-		</ul>
-	</section>
+        </div>
+      </div>
+</section>
 	
 <!-- MODULES XP x10 #### RUUD -->
 <!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
@@ -413,8 +435,10 @@
 	<section class="experience">
 		<h2>Experience : Tokio</h2>
 		<p><a href="#">Plus ></a></p>
-		<ul>
-			<li>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -424,8 +448,8 @@
 						<div class="etoiles_avis"></div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -435,8 +459,8 @@
 						<div class="etoiles_avis">72</div>
 					</a>
 				</article>
-			</li>
-			<li>
+       </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -446,8 +470,8 @@
 						<div class="etoiles_avis">16</div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -457,9 +481,9 @@
 						<div class="etoiles_avis">1</div>
 					</a>
 				</article>
-			</li>
-		</ul>
-	</section>
+        </div>
+      </div>
+</section>
 	
 <!-- MODULES XP x10 #### RUUD -->
 <!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
@@ -467,8 +491,10 @@
 	<section class="experience">
 		<h2>Experience : Los Angeles</h2>
 		<p><a href="#">Plus ></a></p>
-		<ul>
-			<li>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -478,8 +504,8 @@
 						<div class="etoiles_avis"></div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -489,8 +515,8 @@
 						<div class="etoiles_avis">72</div>
 					</a>
 				</article>
-			</li>
-			<li>
+       </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -500,8 +526,8 @@
 						<div class="etoiles_avis">16</div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -511,9 +537,9 @@
 						<div class="etoiles_avis">1</div>
 					</a>
 				</article>
-			</li>
-		</ul>
-	</section>
+        </div>
+      </div>
+</section>
 	
 <!-- MODULES XP x10 #### RUUD -->
 <!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
@@ -521,8 +547,10 @@
 	<section class="experience">
 		<h2>Experience : Lisbonne</h2>
 		<p><a href="#">Plus ></a></p>
-		<ul>
-			<li>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -532,8 +560,8 @@
 						<div class="etoiles_avis"></div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -543,8 +571,8 @@
 						<div class="etoiles_avis">72</div>
 					</a>
 				</article>
-			</li>
-			<li>
+       </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -554,8 +582,8 @@
 						<div class="etoiles_avis">16</div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -565,9 +593,9 @@
 						<div class="etoiles_avis">1</div>
 					</a>
 				</article>
-			</li>
-		</ul>
-	</section>
+        </div>
+      </div>
+</section>
 	
 <!-- MODULES XP x10 #### RUUD -->
 <!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
@@ -575,8 +603,10 @@
 	<section class="experience">
 		<h2>Experience : San Fransisco</h2>
 		<p><a href="#">Plus ></a></p>
-		<ul>
-			<li>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -586,8 +616,8 @@
 						<div class="etoiles_avis"></div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -597,8 +627,8 @@
 						<div class="etoiles_avis">72</div>
 					</a>
 				</article>
-			</li>
-			<li>
+       </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -608,8 +638,8 @@
 						<div class="etoiles_avis">16</div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -619,9 +649,9 @@
 						<div class="etoiles_avis">1</div>
 					</a>
 				</article>
-			</li>
-		</ul>
-	</section>
+        </div>
+      </div>
+</section>
 	
 <!-- MODULES XP x10 #### RUUD -->
 <!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
@@ -629,8 +659,10 @@
 	<section class="experience">
 		<h2>Experience : Sydney</h2>
 		<p><a href="#">Plus ></a></p>
-		<ul>
-			<li>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -640,8 +672,8 @@
 						<div class="etoiles_avis"></div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -651,8 +683,8 @@
 						<div class="etoiles_avis">72</div>
 					</a>
 				</article>
-			</li>
-			<li>
+       </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -662,8 +694,8 @@
 						<div class="etoiles_avis">16</div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -673,9 +705,9 @@
 						<div class="etoiles_avis">1</div>
 					</a>
 				</article>
-			</li>
-		</ul>
-	</section>
+        </div>
+      </div>
+</section>
 	
 <!-- MODULES XP x10 #### RUUD -->
 <!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
@@ -683,8 +715,10 @@
 	<section class="experience">
 		<h2>Experience : Londres</h2>
 		<p><a href="#">Plus ></a></p>
-		<ul>
-			<li>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -694,8 +728,8 @@
 						<div class="etoiles_avis"></div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -705,8 +739,8 @@
 						<div class="etoiles_avis">72</div>
 					</a>
 				</article>
-			</li>
-			<li>
+       </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -716,8 +750,8 @@
 						<div class="etoiles_avis">16</div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -727,9 +761,9 @@
 						<div class="etoiles_avis">1</div>
 					</a>
 				</article>
-			</li>
-		</ul>
-	</section>
+        </div>
+      </div>
+</section>
 	
 <!-- MODULES XP x10 #### RUUD -->
 <!-- a recopier 9 fois pour New York, Barcelone, Paris, Londre, Tokio, ..... -->	
@@ -737,8 +771,10 @@
 	<section class="experience">
 		<h2>Experience : Rome</h2>
 		<p><a href="#">Plus ></a></p>
-		<ul>
-			<li>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -748,8 +784,8 @@
 						<div class="etoiles_avis"></div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -759,8 +795,8 @@
 						<div class="etoiles_avis">72</div>
 					</a>
 				</article>
-			</li>
-			<li>
+       </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -770,8 +806,8 @@
 						<div class="etoiles_avis">16</div>
 					</a>
 				</article>
-			</li>
-			<li>
+        </div>
+        <div class="col-md-3">
 				<article>
 					<a href="#">
 						<img src="http://via.placeholder.com/255x180" />
@@ -781,9 +817,9 @@
 						<div class="etoiles_avis">1</div>
 					</a>
 				</article>
-			</li>
-		</ul>
-	</section>
+        </div>
+      </div>
+</section>
 	
 <!--Footer Chris-->				
 	<footer>
