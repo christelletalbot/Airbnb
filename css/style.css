@@ -1,1 +1,123 @@
+<<<<<<< HEAD
 .display=.none
+=======
+/* #### Styles CSS personaliseé #### */          
+
+
+
+
+
+/* #### CSS FLORIAN  #### */
+
+
+
+
+
+
+
+/* #### CSS CHRISTELLE #### */
+
+
+
+
+
+
+
+/* #### CSS RUUD #### */
+
+
+
+/* #### CSS RUUD #### */
+
+
+.experience {
+	margin-left: 20px;	
+}
+
+.experience h4{
+	font-weight: 700 ;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+    font-size: 12px ;
+    line-height: 16px ;
+    letter-spacing: 0.4px ;	
+}
+
+.experience a{
+	text-decoration: none;	
+}
+
+
+.experience h3{
+	font-weight: 700 ;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+    font-size: 19px ;
+    line-height: 22px ;
+    letter-spacing: undefined ;
+    padding-top: 0px ;
+    padding-bottom: 0px ;
+    color: #484848 ;
+    max-height: 44px ;
+    overflow: hidden ;
+    text-overflow: ellipsis ;
+    display: -webkit-box ;
+    -webkit-line-clamp: 2 ;
+    -webkit-box-orient: vertical ;
+    margin-bottom: 4px ;
+}
+
+.experience h2{
+	font-weight: 700 ;
+    margin-bottom: 0px ;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+    font-size: 28px ;
+    line-height: 32px ;
+    letter-spacing: -0.6px ;
+    padding-top: 2px ;
+    padding-bottom: 2px ;
+    color: #484848 ;	
+}
+
+
+
+.experience p{
+	font-weight: 300 ;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+    font-size: 15px ;
+    line-height: 18px ;
+    letter-spacing: 0.2px ;
+    padding-top: 0px ;
+    padding-bottom: 0px ;
+    color: #484848 ;
+}
+
+.experience .plus{
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+    font-size: 14px ;
+    line-height: 18px ;
+    letter-spacing: undefined ;
+    padding-top: undefined ;
+    padding-bottom: undefined ;
+    color: #484848 ;
+    margin-right: 6px ;
+}
+
+.experience .etoiles_avis{
+	font-weight: normal ;
+    margin: 0px ;
+    word-wrap: break-word ;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif ;
+    font-size: 12px ;
+    line-height: 16px ;
+    letter-spacing: 0.4px ;
+    padding-top: 0px ;
+    padding-bottom: 0px ;
+    color: #484848 ;
+    display: inline ;
+}
+
+.experience i {
+    color: #008489;
+
+}
+
+>>>>>>> 0e143f7382384855b4ecda12e3757459b9e19910

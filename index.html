@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Airbnb</title>
     <link rel="stylesheet" href="node_modules/knacss/css/knacss.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="node_modules/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="node_modules/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 <!-- HEADER #### RUUD -->
@@ -16,8 +17,8 @@
 	        <div>
 	        	<a class="" href="#">[LOGO]</a>
 			</div>
-			<div class="">
-	    		<ul class="">
+			<div class="right menu">
+	    		<ul class="right menu">
 	                <li class=""><a href="#">Devenir hôte</a></li>
 					<li class=""><a href="#">Aide</a></li>
 					<li class=""><a href="#">Inscription</a></li>
@@ -44,102 +45,70 @@
 		</div>
 	</header>
 <!-- MODULES XP x10 #### RUUD -->
-	<section class="">
-		<h2>Experience</h2>
-	    <div class="">
-			<p><a href="#">Plus ></a></p>
-	    </div>
-		<div>
-			<a href="#">
-				<img src="http://via.placeholder.com/255x180" />
-				<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
-				<h3>A '90s themed holiday dance party for charity</h3>
-				<p>26€ par personne</p>
-				<div class="etoiles_avis"></div>
-			</a>
-		</div>
-		<div>
-			<a href="#">
-				<img src="http://via.placeholder.com/255x180" />
-				<h4>VIE NOCTURNE · PARIS</h4>
-				<h3>Above and beyond Paris' Live Music scenes.</h3>
-				<p>35€ par personne</p>
-				<div class="etoiles_avis">72</div>
-			</a>
-		</div>
-		<div>
-			<a href="#">
-				<img src="http://via.placeholder.com/255x180" />
-				<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
-				<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
-				<p>22€ par personne</p>
-				<div class="etoiles_avis">16</div>
-			</a>
-		</div>
-		<div>
-			<a href="#">
-				<img src="http://via.placeholder.com/255x180" />
-				<h4>SPORTS · BALI</h4>
-				<h3>Learn to surf with the 5th times Asian Champion</h3>
-				<p>7€ par personne</p>
-				<div class="etoiles_avis">1</div>
-			</a>
-		</div>
-	</section>
-<!--Module Destination x1 Florian-->
-	<section>
-		<h2>Destination à la une</h2>
-		<ul>
+
+	<section class="experience clear">
+
+		<ul class="grid has-gutter unstyled">
 			<li>
-				<a href="#">
-					<img src="https://loremflickr.com/320/240" alt="placer holder">
-					<h4>Bar Speakeasy</h4>
-					<h3>Chumley's</h3>
-					<p class="bigger">Environ 51€ par personne</p>
-				</a>		
+				<h2>Experience</h2>
 			</li>
 			<li>
-				<a href="#">
-					<img src="https://loremflickr.com/320/240" alt="placer holder">
-					<h4>Bar Speakeasy</h4>
-					<h3>Chumley's</h3>
-					<p>Environ 51€ par personne</p>
-				</a>		
+				<div class="rf">
+					<p class="plus"><a href="#">Plus &gt;</a></p>
+				</div>		
+			</li>
+		</ul>
+
+		<ul class="grid has-gutter unstyled clear">
+			<li>
+				<article>
+					<a href="#">
+						<img src="https://a0.muscache.com/im/pictures/9cc4d447-585d-4f4b-b810-47b75f59a339.jpg?aki_policy=large" />
+						<h4>DIVERTISSEMENT · SAN FRANCISCO</h4>
+						<h3>A '90s themed holiday dance party for charity</h3>
+						<p>26€ par personne</p>
+						<div class="etoiles_avis"><i class="fa fa-star" aria-hidden="true"></i></div>
+					</a>
+				</article>
 			</li>
 			<li>
-				<a href="#">
-					<img src="https://loremflickr.com/320/240" alt="placer holder">
-					<h4>Bar Speakeasy</h4>
-					<h3>Chumley's</h3>
-					<p>Environ 51€ par personne</p>
-				</a>		
+				<article>
+					<a href="#">
+						<img src="https://loremflickr.com/255/180" />
+						<h4>VIE NOCTURNE · PARIS</h4>
+						<h3>Above and beyond Paris' Live Music scenes.</h3>
+						<p>35€ par personne</p>
+						<div class="etoiles_avis"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> 72</div>
+					</a>
+				</article>
 			</li>
 			<li>
-				<a href="#">
-					<img src="https://loremflickr.com/320/240" alt="placer holder">
-					<h4>Bar Speakeasy</h4>
-					<h3>Chumley's</h3>
-					<p>Environ 51€ par personne</p>
-				</a>		
+				<article>
+					<a href="#">
+						<img src="https://loremflickr.com/255/180" />
+						<h4>BIEN-ÊTRE · DÉSERT DE PALM SPRINGS</h4>
+						<h3>Sun- Soak- Clay Facial- Water Fast- @ A Private Hot Spring</h3>
+						<p>22€ par personne</p>
+						<div class="etoiles_avis"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> 16</div>
+					</a>
+				</article>
 			</li>
 			<li>
-				<a href="#">
-					<img src="https://loremflickr.com/320/240" alt="placer holder">
-					<h4>Bar Speakeasy</h4>
-					<h3>Chumley's</h3>
-					<p>Environ 51€ par personne</p>
-				</a>		
-			</li>
-			<li>
-				<a href="#">
-					<img src="https://loremflickr.com/320/240" alt="placer holder">
-					<h4>Bar Speakeasy</h4>
-					<h3>Chumley's</h3>
-					<p>Environ 51€ par personne</p>
-				</a>		
+				<article>
+					<a href="#">
+						<img src="https://loremflickr.com/255/180" />
+						<h4>SPORTS · BALI</h4>
+						<h3>Learn to surf with the 5th times Asian Champion</h3>
+						<p>7€ par personne</p>
+						<div class="etoiles_avis"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> 1</div>
+					</a>
+				</article>
 			</li>
 		</ul>
 	</section>
+	
+
+
 <!--Footer Chris-->				
 	<footer>
 	  <hr /> 	
