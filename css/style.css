@@ -1,0 +1,8 @@
+.puces  {
+	list-style: none;
+	display: inline-flex;
+}
+
+.menu-top {
+	display: flex;
+}
