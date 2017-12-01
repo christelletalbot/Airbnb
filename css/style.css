@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .puces  {
 	list-style: none;
 	display: inline-flex;
@@ -7,7 +7,9 @@
 .menu-top {
 	display: flex;
 }
-=======
+
+.display=.none
+
 /* #### Styles CSS personaliseé #### */          
 
 
@@ -127,4 +129,8 @@
 
 }
 
+<<<<<<< HEAD
 >>>>>>> 041da6458fa80430ac2210f38fb4ff133fe51a9e
+=======
+>>>>>>> 0e143f7382384855b4ecda12e3757459b9e19910
+>>>>>>> 5d86f8413ba568ed11ca21c42446fc6427fb5010
